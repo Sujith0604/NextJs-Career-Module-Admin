@@ -1,5 +1,6 @@
 "use client";
 const DeletePostButton = ({ postId: any }) => {
+  // eslint-disable-line no-unused-vars
   const handleClick = async () => {
     try {
       await fetch(`/api/post/${postId}`, {
