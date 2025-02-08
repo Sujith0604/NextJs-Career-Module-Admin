@@ -1,5 +1,5 @@
 "use client";
-const DeletePostButton = ({ postId }) => {
+const DeletePostButton = ({ postId: any }) => {
   const handleClick = async () => {
     try {
       await fetch(`/api/post/${postId}`, {
